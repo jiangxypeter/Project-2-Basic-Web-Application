@@ -6,7 +6,7 @@
 I chose to use the Bootstrap framework to build the web page. Write the Html first, then the CSS. Make sure the API is applied in the request. Make a flow layout, 
 and then write the corresponding style. Then write components in modules. Finally, fill in the text content. and check if the web page is working fine.
 
-About the reasons for choosing bootstrap.(https://getbootstrap.com/)That's because bootstrap is by far the most popular HTML, CSS, and JS framework. Can be used to develop responsive layout, 
+About the reasons for choosing bootstrap.(https://getbootstrap.com/) That's because bootstrap is by far the most popular HTML, CSS, and JS framework. Can be used to develop responsive layout, 
 mobile-first web projects.Bootstrap is simple and flexible. A collection of html, css, and javascript tools that can be used to architect popular user interfaces and interactive interfaces. 
 Based on html5, css3, bootstrap has a lot of attractive features: friendly learning curve, excellent compatibility, responsive design, 12-column grid, style wizard documentation. 
 The detailed reasons for choosing Bootstrap are mainly as follows.The first is Bootstrap's advantage over the grid system. It adjusts the page to the user's screen size, making it perform well across all sizes.
