@@ -26,5 +26,6 @@ That's why I chose to use Bootstrap for this project.
 
 image：
 ![Alt text](https://github.com/jiangxypeter/Project-2-Basic-Web-Application/blob/main/readme%20images/1.jpg)
-
+![Alt text](https://github.com/jiangxypeter/Project-2-Basic-Web-Application/blob/main/readme%20images/2.jpg)
+![Alt text](https://github.com/jiangxypeter/Project-2-Basic-Web-Application/blob/main/readme%20images/3.jpg)
 #### jiangxypeter/Project-2-Basic-Web-Application
