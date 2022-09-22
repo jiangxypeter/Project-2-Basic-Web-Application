@@ -1,5 +1,6 @@
 # Project 2: Basic Web Application
 ## U3224992-Project 2: Basic Web Application-Rationale
+
 ### Before making a web page, I first collect the resources needed to build a web page. Organize these resources (text, images, API, links...) and categorize them.
 
 I chose to use the Bootstrap framework to build the web page. Write the Html first, then the CSS. Make sure the API is applied in the request. Make a flow layout, 
@@ -23,5 +24,4 @@ Fourth, user downloads can be reduced in large-scale projects. Fifth, Bootstrap 
 It makes it easy for developers to make web pages get the best experience on desktops, tablet devices, and mobile phones. 
 That's why I chose to use Bootstrap for this project.
 
-#### 
-jiangxypeter/Project-2-Basic-Web-Application
+#### jiangxypeter/Project-2-Basic-Web-Application
