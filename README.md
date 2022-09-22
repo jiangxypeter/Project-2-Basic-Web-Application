@@ -25,6 +25,6 @@ It makes it easy for developers to make web pages get the best experience on des
 That's why I chose to use Bootstrap for this project.
 
 image：
-![Alt text]https://github.com/jiangxypeter/Project-2-Basic-Web-Application/blob/main/readme%20images/1.jpg
+![Alt text](https://github.com/jiangxypeter/Project-2-Basic-Web-Application/blob/main/readme%20images/1.jpg)
 
 #### jiangxypeter/Project-2-Basic-Web-Application
