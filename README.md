@@ -24,4 +24,7 @@ Fourth, user downloads can be reduced in large-scale projects. Fifth, Bootstrap 
 It makes it easy for developers to make web pages get the best experience on desktops, tablet devices, and mobile phones. 
 That's why I chose to use Bootstrap for this project.
 
+image：
+![Alt text]https://github.com/jiangxypeter/Project-2-Basic-Web-Application/blob/main/readme%20images/1.jpg
+
 #### jiangxypeter/Project-2-Basic-Web-Application
