@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TopBuildings</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery.min.js"></script>
+<link href='#css?family=Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+<link href='#css?family=Signika+Negative:300,400,600,700|Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!---->
+<div class="header">
+	 <div class="container">
+	     <div class="top-header">
+			 <div class="logo">
+				 	<a href="index.html"><img src="images/logo.png" alt="" /></a>
+			 </div>
+			 <div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					 <li><span class="pic1"></span><a href="index.html">Home</a></li>
+					 <li><span class="pic2"></span><a href="about.html">About Us</a></li>
+					 <li class="active"><span class="pic3"></span><a href="TopBuildings.html">TopBuildings</a></li>
+					 <li><span class="pic4"></span><a href="Events.html">Events</a></li>
+					 <li><span class="pic5"></span><a href="Partners.html">Partners</a></li>
+					 <li><span class="pic2"></span><a href="video.html">Video</a></li>
+					 <li><span class="pic3"></span><a href="link.html">link</a></li>
+
+						<div class="clearfix"></div>
+				 </ul>
+				 <!--script-nav-->
+				 <script>
+				 $("span.menu").click(function(){
+				 $(".top-menu ul").slideToggle("slow" , function(){
+				 });
+				 });
+				 </script>
+				 <!--script-nav-->
+			 </div>
+		  </div>
+	 </div>
+</div>
+<!-- CANBERRA TopBuildings -->
+					<div class="services">					
+						<div class="container">
+						<h1>CANBERRA TopBuildings</h1>
+							<div class="services-grids">
+								<div class="col-md-9 services-left">									
+									<div class="services-left-grids">
+										<div class="col-md-6 services-left-grid">
+											<h3>CANBERRA TopBuildings TITLE</h3>
+											<p>Futura BT, Bold
+												Example size: 30 with Auto Leading
+												Tracking 120
+												All Caps</p>
+											<a class="more-btn" href="#">More</a>
+										</div>
+										<div class="col-md-6 services-left-grid">
+											<h3>MAIN HEADINGS</h3>
+											<p>Futura BT, Extra Black 
+												Example size: 18 with Auto Leading
+												Tracking 70
+												All Caps
+												Space Afer 2mm (4 if no subheading)</p>
+											<a class="more-btn" href="#">More</a>
+										</div>
+										<div class="col-md-6 services-left-grid">
+											<h3>SUB-HEADINGS</h3>
+											<p>Futura BT, Bold Italic
+												Example size: 18 with Auto Leading
+												Tracking 30
+												Space After: 4mm.</p>
+											<a class="more-btn" href="#">More</a>
+										</div>
+										<div class="col-md-6 services-left-grid">
+											<h3>BODY</h3>
+											<p>Futura BT, Book
+												Example size: 11 with Auto Leading
+												Space After: 2mm.</p>
+											<a class="more-btn" href="#">More</a>
+										</div>
+										<div class="col-md-6 services-left-grid">
+											<h3>IN TEXT QUOTES</h3>
+											<p>Futura BT, Light Italic
+												Example size: 11 pt with Auto Leading.</p>
+											<a class="more-btn" href="#">More</a>
+										</div>
+										<div class="col-md-6 services-left-grid">
+											<h3>PULL QUOTES</h3>
+											<p>MrsEaves, Italic 
+												Example size: 28.2 with Auto Leading
+												Tracking 0
+												Paragraph Rules: Rule Above / Width: 
+												Text / Offset 12.69 mm / Weight 
+												0.846 mm / colour from colour 
+												palette.</p>
+											<a class="more-btn" href="#">More</a>
+										</div>
+										<div class="clearfix"> </div>
+										<ul class="pagenation">
+											<li><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 services-right">
+									<h3>Recent-Services</h3>
+									<ul id="a123">
+				
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+
+<!---->
+<div class="fotter">
+<div></div>
+</div>
+<!---->
+<script src="./js/jquery.min.js"></script>
+<script>
+	$.ajax({
+    url: "http://cm.beneb.com/wp-json/wp/v2/pages/",
+    type: "GET",
+    dataType: "json",
+    success: function(data) {
+		console.log(data[2]["content"]["rendered"])
+		$("#a123").html(data[2]["content"]["rendered"])
+        // data = jQuery.parseJSON(data);  //dataType indicates that the returned data is of json type, so there is no need to deserialize it.
+    }
+});
+</script>
+</body>
+</html>

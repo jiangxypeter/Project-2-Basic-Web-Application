@@ -22,9 +22,9 @@
 				<ul>
 					 <li class="active"><span class="pic1"></span><a href="index.html">Home</a></li>
 					 <li><span class="pic2"></span><a href="about.html">About Us</a></li>
-					 <li><span class="pic3"></span><a href="MODERN.html">MODERN</a></li>
-					 <li><span class="pic4"></span><a href="contact.html">Contact Us</a></li>
-					 <li><span class="pic5"></span><a href="Audience.html">Audience</a></li>
+					 <li><span class="pic3"></span><a href="TopBuildings.html">TopBuildings</a></li>
+					 <li><span class="pic4"></span><a href="Events.html">Events</a></li>
+					 <li><span class="pic5"></span><a href="Partners.html">Partners</a></li>
 					 <li><span class="pic2"></span><a href="video.html">Video</a></li>
 					 <li><span class="pic3"></span><a href="link.html">link</a></li>
 
@@ -61,11 +61,11 @@
 						 <ul class="rslides" id="slider">
 						 <li>
 							<div class="sale-box">
-							<span class="on_sale title_shop">About Canberra Modern</span>
+							<span class="on_sale title_shop">About Canberra TopBuildings</span>
 							</div>
 						  <img src="images/bnr1.jpg" alt="">
 						  <div class="caption">
-							<h1>Canberra Modern</h1>	          	
+							<h1>Canberra Modern</h1>   	
 						  </div>
 						   </li>
 						 <li>
@@ -74,7 +74,7 @@
 							</div>
 						  <img src="images/bnr2.jpg" alt="">
 							 <div class="caption">
-							 <h1>Canberra Modern</h1>	
+							 <h1>Canberra Modern</h1>
 							 </div>
 						 </li>
 						 <li>
@@ -83,7 +83,7 @@
 							</div>
 						  <img src="images/bnr3.jpg" alt="">
 						  <div class="caption">
-							 <h1>Canberra Modern</h1>	          	
+							 <h1>Canberra Modern</h1>          	
 						  </div>
 						 </li>
 						  </ul>
@@ -100,18 +100,18 @@
 <!--content-->
 <div class="content">
 	 <div class="container">
-	 <div class="col-md-5 contact-img col-sm-12">
-	 <img src="images/contact.png" alt=""/>
+	 <div class="col-md-5 Events-img col-sm-12">
+	 <img src="images/Events.png" alt=""/>
 	 </div>
 	 <div class="col-md-7 col-sm-12">
-	 <h3>About Canberra Modern</h3>
-	 <p>Canberra Modern (CM) showcases Canberra’s unique mid – late twentieth century places and 
+	 <h3>About Canberra TopBuildings</h3>
+	 <p>Canberra TopBuildings (CM) showcases Canberra’s unique mid – late twentieth century places and 
 		spaces. Our motto is 'Conservation Through Participation' and our innovative events aim to increase 
-		awareness of Canberra’s modernist character, heritage, and uniqueness of international importance, 
+		awareness of Canberra’s TopBuildingsist character, heritage, and uniqueness of international importance, 
 		because it is a designed national capital with significant landscape features from historic trees lining 
 		planned main roads and suburban streets, and a setting of natural hills, bushland and open space. </p>
 		<p>
-			Through event-based advocacy and engagement with the community, Canberra Modern promotes 
+			Through event-based advocacy and engagement with the community, Canberra TopBuildings promotes 
 the protection and appreciation of the places which make an irreplaceable contribution to 
 Canberra’s historic urban and designed cultural landscape.
 		</p>
@@ -133,7 +133,7 @@ Canberra’s historic urban and designed cultural landscape.
 	   </p>
 	</div>
 	<div class="col-md-5 col-sm-12">
-		<img src="images/contact2.png" alt=""/>
+		<img src="images/Events2.png" alt=""/>
 		</div>
 	<div class="clearfix"></div>
 	</div>
@@ -152,7 +152,7 @@ $.ajax({
     success: function(data) {
 		console.log(data[0]["content"]["rendered"])
 		$("#a123").html(data[5]["content"]["rendered"])
-        // data = jQuery.parseJSON(data);  //dataType indicates that the returned data is of json type, so there is no need to deserialize it
+        // data = jQuery.parseJSON(data);  //dataType indicates that the returned data is of json type, so there is no need to deserialize it.
     }
 });
 

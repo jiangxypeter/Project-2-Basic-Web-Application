@@ -23,9 +23,9 @@
 					 <li><span class="pic1"></span><a href="index.html">Home</a></li>
 					 <li><span class="pic2"></span><a href="about.html">About Us</a></li>
 					 <li><span class="pic3"></span><a href="TopBuildings.html">TopBuildings</a></li>
-					 <li><span class="pic4"></span><a href="Events.html">Events</a></li>
+					 <li class="active"><span class="pic4"></span><a href="Events.html">Events</a></li>
 					 <li><span class="pic5"></span><a href="Partners.html">Partners</a></li>
-					 <li class="active"><span class="pic2"></span><a href="video.html">Video</a></li>
+					 <li><span class="pic2"></span><a href="video.html">Video</a></li>
 					 <li><span class="pic3"></span><a href="link.html">link</a></li>
 
 						<div class="clearfix"></div>
@@ -42,38 +42,37 @@
 		  </div>
 	 </div>
 </div>
-<!-- CANBERRA -->
-					<div class="services">					
-						<div class="container">
-						<h1>Video</h1>
-							<div class="services-grids">
-	
-								<div class="col-md-12 services-right">
-									<h3>Video</h3>
-									<ul id="a123">
-	
-									</ul>
-								</div>
-                                
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
+<!---->
+<div class="event_content">
+	<div class="inner_img_text">
+		<div class="event_text" id="event_text1">
 
+		</div>
+
+	</div>
+	<div class="inner_img_text">
+		<div class="event_text" id="event_text2">
+
+		</div>
+	</div>
+</div>
+
+<!---->
 <!---->
 <div class="fotter">
 <div></div>
 </div>
 <!---->
-<script src="./js/jquery.min.js"></script>
 <script>
 	$.ajax({
-    url: "http://cm.beneb.com/wp-json/wp/v2/pages/",
+    url: "http://cm.beneb.com/wp-json/wp/v2/events/",
     type: "GET",
     dataType: "json",
     success: function(data) {
-		console.log(data)
-		$("#a123").html(data[1]["content"]["rendered"])
+		console.log(data[0]["content"]["rendered"])
+		$("#event_text1").html(data[0]["content"]["rendered"])
+		$("#event_text2").html(data[1]["content"]["rendered"])
+
         // data = jQuery.parseJSON(data);  //dataType indicates that the returned data is of json type, so there is no need to deserialize it.
     }
 });
